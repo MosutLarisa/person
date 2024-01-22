@@ -15,9 +15,8 @@
                 person[i].LastName = Console.ReadLine();
                 Console.WriteLine("YearOfBirth:");
 
-
             }
-            People oldestPerson = PersonProcessor.GetOldestPerson(person);
+            PersonProcessor.GetOldestPerson(person);
 
         }
     }

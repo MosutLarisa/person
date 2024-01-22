@@ -10,18 +10,6 @@ namespace Person
     {
         public static People GetOldestPerson(People[] people)
         {
-
-            People oldestPerson = people[0];
-
-            foreach (var person in people)
-            {
-                if (person.Age > oldestPerson.Age)
-                {
-                    oldestPerson = person;
-                }
-            }
-
-            return oldestPerson;
         }
     }
 }
